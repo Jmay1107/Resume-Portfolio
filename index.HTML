@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://kit.fontawesome.com/e10a2b576e.js" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume Portfolio</title>
+        <link rel="stylesheet" href="style.CSS">
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!--add in a logo (optional)-->
+                <img src="" class="">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Full-Stack Developer</p>
+                <h1>Hi, I'm<span>Jason Mayhew</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!--About-->
+   <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <!--image of yourself-->
+                    <img src="images/background.png">
+                </div>
+                <div class="about-col-2">
+                    <!--Summary-->
+                    <h1 class="sub-title">About me</h1>
+                    <p>Full-Stack Web Developer with fundamental 
+                        knowledge of software design, development, 
+                        and testing. Seeking to utilize broad 
+                        educational background with excellent 
+                        analytical, technical, and programming 
+                        skills to thrive as a developer.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <!--First the title of the skill then the skill itself-->
+                            <ul>
+                                <li><span>Web development</span><br>HTML/CSS</li>
+                                <li><span>JavaScript</span><br>HTML/CSS</li>
+                                <li><span>JavaScript</span><br>HTML/CSS</li>
+                                <li><span>JavaScript</span><br>HTML/CSS</li>
+                                <li><span>JavaScript</span><br>HTML/CSS</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <!--First the year of employment then the job-->
+                            <ul>
+                                <li><span>2016 - 2021</span><br>HEB</li>
+                                <li><span>JavaScript</span><br>HTML/CSS</li>
+                                <li><span>JavaScript</span><br>HTML/CSS</li>
+                                <li><span>JavaScript</span><br>HTML/CSS</li>
+                                <li><span>JavaScript</span><br>HTML/CSS</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <!--First the year then the institution-->
+                            <ul>
+                                <li><span>Web development</span><br>HTML/CSS</li>
+                                <li><span>JavaScript</span><br>HTML/CSS</li>
+                                <li><span>JavaScript</span><br>HTML/CSS</li>
+                                <li><span>JavaScript</span><br>HTML/CSS</li>
+                                <li><span>JavaScript</span><br>HTML/CSS</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+   </div>
+
+   <!--Services-->
+   <div id="services">
+    <div class="container">
+        <h1 claa="sub-title">My Services</h1>
+        <div class="services-list">
+            <!--Title of service, followed by discription and opptional link to it-->
+            <div>
+                <!--The i line is just an icon, change it if you want-->
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>i can make webs</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Web Design</h2>
+                <p>i can make webs</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Web Design</h2>
+                <p>i can make webs</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+
+<!--Portfolio-->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <!--add in images of your works/projects-->
+            <div class="work">
+                <img src="images/Work-1.png">
+                <div class="layer">
+                    <h3>racecar</h3>
+                    <p>i make racecar</p>
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-up-right-from-square" style="color: #061632;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Work-2.png">
+                <div class="layer">
+                    <h3>IBM</h3>
+                    <p>i design racecar</p>
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-up-right-from-square" style="color: #061632;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Work-3.png">
+                <div class="layer">
+                    <h3>Github</h3>
+                    <p>i race racecar</p>
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-up-right-from-square" style="color: #061632;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+
+ <!--Contact-->
+<div id="contact">
+    <div class="container">
+        <h1 class="sub-title">Contact Me</h1>
+        <div class="contact-center">
+            <p><i class="fa-solid fa-envelope"></i> Mayhew.Jason76@Gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> 830-358-2146</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-solid fa-info"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <!--PDF of CV/Resume-->
+            <a href="#" download class="btn btn2">Download CV</a>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){   
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+    </body>
+</html>
